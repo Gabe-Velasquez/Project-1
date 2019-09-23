@@ -1,125 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Profile Page</title>
-    <!--title of my profile page located on line 7-->
-    <!--Linking my css code to spice up my HTML for later-->
-    <link rel="stlylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Gabriel Velasquez's Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <body>
 
-</head>
-<body>
-    <div>
-    <header>
-        <!-- setting my header of the page-->
-        <h1>WELCOME TO MY PROFILE PAGE!</h1>
-        <p>My name is Gabriel Velasquez and this is my profile page!!</p>
-        <img src="images/profile_pic.jpg" width="200" height="200" alt="A picture of me" class="profile_pic">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/#About">About</a></li>
-                <li><a href="/#Interests">Interests</a></li>
-                <li><a href="/#Employment">Employment</a></li>
-                <li><a href="/#Goals">Goals and Achievements</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Gabriel Velasquez</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="routine.html">Routine</a></li>
+          <li><a href="Interests.html">Interests/Hobbies</a></li>
+        </ul>
     </div>
-    <Main>
-        <!-- Created a main for my webpage and making my information split into sections for later use-->
-        <section > <!--Section About Me-->
-            <h2 class="Card" id="About">About Me</h2>
-            <img src="images/Me1.jpg" widith="200" height="200" alt="A picture of me when I went to Indianapolis for Wizard Unite Fan Fest" class="Me1">
-            <p>My story so far has been fun and full of adventures. From experiencing the life in the Southwest and now being in the Midwest, I am going along for the ride. I'm not used to writing about myself so I'll give it a shot...</p>
-            <p>I like to travel and here are just a little bit where I've been...</p>
-                <ul>
-                    <li>Colorado</li>
-                    <li>New Mexico... yes, it is in the located in the United States. Click <a href="https://en.wikipedia.org/wiki/New_Mexico" title="Seriously, people asked me how I like the United States so far" target="_blank">HERE</a> to learn more</li>
-                    <li>California</li>
-                    <li>Ireland</li>
-                    <li>The Philippines</li>
-                    <li>Mexico</li>
-                    <li>the list continues...</li>
-                </ul>   
-            
-        </section> 
 
-        <Section>
-                <h2 class="Card" id="Employment">Employment</h2>
-                <p><strong>Position:</strong> Process Assistant at Amazon</p>
-                <p><strong>Tenure:</strong> September 2017 - <em>Present</em></p>
-                <p><strong>Responsibilities:</strong> I've been to serveral buildings now but the current building I am at now I focus on the quality of our problem solve and process of how it is run in St. Peters, MO. I am a source of information when problem solvers have questions on damages, mislabelled items, along with many other things.</p>
-                <address>
-                    Amazon STL8 <br>
-                    4000 Premier Pkwy<br>
-                    Saint Peters, MO 63301<br>
-                    <hr>
-                    Amazon DEN3<br>
-                    14601 Grant St,<br> 
-                    Thornton, CO 80023
-                    <hr>
-                    Amazon DEN2<br>
-                    22205 E 19th St,<br> 
-                    Aurora, CO 20019<br>
-                </address>
-                    
-        </Section>
+    <header>
+      <img src="images/me.jpg" alt="Picture of me" class="profile-image">
+      <h1 class="tag name">Hello, I’m Gabriel Velasquez.</h1>
+      <p class="tag location">Currently living in Saint Louis, MO.</p>
+    </header>
 
-        <!--Section Interests-->
-        <section>
-            <h2 class="Card" id="Interests">Interests</h2>
-            <p>There are a variety of things that I like doing such as:</p>
-            <ul>
-                <li>Snowboarding</li>
-                <li>Golfing</li>
-                <li>Playing Video Games</li>
-                <li>Watching Youtube</li>
-                <ul>
-                    <li>financial videos</li>
-                    <li>coding videos (as of late)</li>
-                    <li>tech videos/reviews</li>
-                </ul>
-                <li>Watching Sports</li>
-                <ul>
-                    <li>Soccer</li>
-                    <ul>
-                        <li>English Premier League</li>
-                        <li>La Liga</li>
-                    </ul>
-                    <li>Hockey</li>
-                </ul>
-            </ul>
-        </section>
+    <main class="flex">
+      <div class="card">
+        <h2>Background</h2>
+        <p>I currently work at an Amazon warehouse out here in Saint Louis overseeing quality and ensure that procedures are followed each and every shift. Working at Amazon has given me the chance to start a retirement plan for myself with their 401k program, insure myself just in case the worst happens, and the ability to move to a different state to experience new things </p>
+        <p>I’ve been in the warehousing industry for two years but wanted to do something which I had an interest in (this...it's web development). Amazon is giving me an opportunity to take the tech degree course for the front end development program and paying for it which I am thankful for.</p>
+      </div> 
 
-        
+      <div class="card">
+        <h2>Goals</h2>
+        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Rails</li>
+        </ul>
+        <p>Down the road a bit when I get more comfortable with HTML, CSS and Javascipt, I want to start reading about: </p>
+        <ul class="skills">
+          <li>Angular</li>
+          <li>React</li>
+          <li>and Swift</li>
+        </ul>
+      </div> 
 
-        <section>
-            <h2 class="Card" id="goals">Goals and Achievements</h2>
-            <p>There are a few achievements in my life that I am proud of. They are as listed:</p>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-
-            <p>My employement goal is to land a job with web development as a career and continue learning and pushing my skills to their <strong>absolute</strong> limits. My personal goal is to start reading more (a book a month) and to learn something every day.</p>
-
-        </section>
-
-        <footer> <!--Footer tag that links to my social media and Github-->
-            <p>Thank you for making it this far and to the end of my profile page. Below this are links to my social media and Github</p>
-            <nav>
-                <img src="images/LI-In-Bug.png" width="20" height="20" href="https://www.linkedin.com/in/gabriel-velasquez-05a81599/" title="Links to my Linked In profile">
-                <img src="images/Octocat.png" width="20" height="20" href="#" title="Links to my Github">
-            </nav>
-
-        </footer>
-    </Main>
-    
-</body>
-</html>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://twitter.com/GabeVelasquez07" target="_blank" class="social twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/gabriel-velasquez-05a81599/" target="_blank" class="social linkedin">LinkedIn</a></li>
+        <li><a href="https://github.com/GabrielVel/" target="_blank" class="social github">Github</a></li>
+      </ul>
+      <p class="copyright"> &copy; 2019, Gabriel Velasquez</p>
+    </footer>
+  </body>
+  </html>
